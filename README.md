@@ -23,7 +23,9 @@ touch postcss.config.js
 
 > Si el editor utilizado es Visual Studio Code, se recomienda contar con la extensión [tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-## Utiliades
+***
+
+## Utilidades
 Para contar con un servidor web de pruebas y no estar refrescando el archivo en cada cambio, se puede instalar live server de la siguiente manera:
 ```bash
 # Instalación global
@@ -32,7 +34,13 @@ npm install -g live-server
 # Para utilizarlo desplegando lo contenido en la carpeta public:
 live-server public 
 ```
+***Nota:*** Si se requiere tener la configuración por defecto y completa de tailwind se puede ejecutar el siguiente comando:
+```bash
+npx tailwindcss init tailwind.config.full.js --full
+```
 
+
+***
 ## Ejecución
 Para ejecutar o compilar lo realizado en css/tailwind.css, se debe de crear un comando en package.json, de la siguiente manera:
 

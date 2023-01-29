@@ -4,7 +4,9 @@
   "description": "Proyecto para aprender tailwind",
   "main": "app.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/styles.css"
+    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "build-dev": "tailwindcss -i ./css/tailwind.css -o ./public/css/styles.css --watch"
+
   },
   "repository": {
     "type": "git",
